@@ -1,16 +1,10 @@
----
-title: Processo Seletivo Arquiteto de Software Front-End da Sigma/TJMT
-layout: post
-source-id: 1RbBXgJRZ0oQFq0iNse3ppMxB4PAZ9ThNjiTOqdPRQPQ
-published: true
----
 # **Processo Seletivo Arquiteto de Software Front-End da Sigma/TJMT**
 
-# **Bem-vindo ao processo seletivo para arquiteto de software da Sigma/TJMT!**
+### **Bem-vindo ao processo seletivo para arquiteto de software da Sigma/TJMT!**
 
 ## **O desafio**
 
-# **Criar uma aplicação PWA que permita apresentar uma lista de dados sobre filmes e programas/séries de televisão através de chamadas API pelo ****_[The Movie Database (TMDb_**)](https://www.themoviedb.org/documentation/api)**.**
+### **Criar uma aplicação PWA que permita apresentar uma lista de dados sobre filmes e programas/séries de televisão através de chamadas API pelo _[The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api).**
 
 ## **Requisitos**
 
