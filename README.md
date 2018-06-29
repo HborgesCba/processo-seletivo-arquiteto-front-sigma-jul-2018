@@ -4,7 +4,7 @@
 
 ## **O desafio**
 
-### **Criar uma aplicação PWA que permita apresentar uma lista de dados sobre filmes e programas/séries de televisão através de chamadas API pelo _[The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api).**
+### **Criar uma aplicação PWA que permita apresentar uma lista de dados sobre filmes e programas/séries de televisão através de chamadas API pelo [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api).**
 
 ## **Requisitos**
 
