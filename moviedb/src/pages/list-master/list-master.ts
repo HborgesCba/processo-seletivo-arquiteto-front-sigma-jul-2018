@@ -1,3 +1,4 @@
+import { MovieDetail } from './../item-detail/models/movieDetail';
 import { Languages } from './../../models/languages';
 import { ResultMovies } from './../../models/resultMovies';
 import { PopularMoviesPrv } from './../../mocks/providers/popularMoviesPrv';
@@ -13,6 +14,7 @@ import { PosterSize } from '../../models/posterSize';
 export class ListMasterPage {
 
   resultMovies: ResultMovies = {};
+
   languages: Languages = {};
   apiImgRoot: string = 'https://image.tmdb.org/t/p/'
   posterSize: PosterSize;
@@ -56,9 +58,9 @@ export class ListMasterPage {
   /**
    * Navigate to the detail page for this item.
    */
-  openItem(item: ResultMovies) {
-    this.navCtrl.push('ItemDetailPage', {
-      item: item
-    });
+  openItem(movieId: any) {
+      this.navCtrl.push('ItemDetailPage', {
+        item: movieId
+      });
   }
 }

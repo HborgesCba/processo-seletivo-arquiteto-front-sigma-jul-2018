@@ -16,7 +16,7 @@
 
   <ion-list>
     <ion-item-sliding *ngFor="let movie of resultMovies.results">
-      <button ion-item (click)="openItem(movie)">
+      <button ion-item (click)="openItem(movie.id)">
         <ion-avatar item-start>
           <img [src]="getImgMovieImg('w92',movie.poster_path)" />
         </ion-avatar>

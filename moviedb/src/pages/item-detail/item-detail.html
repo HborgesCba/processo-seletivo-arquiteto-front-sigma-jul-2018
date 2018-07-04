@@ -1,18 +1,26 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{ item.name }}</ion-title>
+    <ion-title>{{ movieDetail.title }}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
-  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  <ion-avatar item-start>
+    <img [src]="getImgMovieImg('w92',movieDetail.poster_path)" />
+  </ion-avatar>
+  <div class="item-detail" padding>
+    <h2>{{movieDetail.title}}</h2>
+    <p>Rendimento: {{movieDetail.budget}}</p>
+    <p>Lançamento: {{movieDetail.release_date}}</p>
+    <p>Origem: {{movieDetail.original_language}}</p>
+    <p>Popularidade: {{movieDetail.popularity}}</p>
+    <h3>Gêneros</h3>
+  <ion-item *ngFor="let genero of movieDetail.genres">
+    <p>{{genero.name}}</p>
+  </ion-item>
   </div>
 
-  <div class="item-detail" padding>
-    <h2>{{item.name}}</h2>
-    <p>{{item.about}}</p>
-  </div>
 </ion-content>
